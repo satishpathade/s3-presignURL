@@ -26,7 +26,7 @@ Create an S3 bucket in the AWS Management Console to store your files.
 ### 3. IAM Role Policy
 Your Lambda function needs permission to get and put objects in the bucket.  
 Here’s an example IAM policy to attach to the Lambda’s execution role:
-  [presign-url.py](presign-url.py)
+  [lambda-s3-policy.json](lambda-s3-policy.json)
 
 
 ### Example Request/Response
